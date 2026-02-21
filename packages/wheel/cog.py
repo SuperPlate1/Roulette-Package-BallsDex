@@ -124,7 +124,7 @@ class Wheel(commands.GroupCog):
             color=discord.Color.green()
         )
         
-        embed.set_image(url="https://media.discordapp.net/attachments/1463913792537890906/1465375111610634260/HiPaint_1769443017797.png")
+        embed.set_image(url="https://media.discordapp.net/attachments/1463913792537890906/1474770409835593728/326_sin_titulo_20260212152542.png?ex=699b0e79&is=6999bcf9&hm=4a337423b1a79b12af8e848ee0925d679c9588e51a28a207e46a0438160684a7&=&format=webp&quality=lossless&width=1240&height=698")
         
         await interaction.response.send_message(embed=embed)
 
@@ -181,7 +181,7 @@ class Wheel(commands.GroupCog):
                 text=f"Debes esperar 8 horas para poder volver a girar la ruleta!"
             )
             
-            result_embed.set_image(url="https://media.discordapp.net/attachments/1463913792537890906/1465375111610634260/HiPaint_1769443017797.png")
+            result_embed.set_image(url="https://media.discordapp.net/attachments/1463913792537890906/1474770409835593728/326_sin_titulo_20260212152542.png?ex=699b0e79&is=6999bcf9&hm=4a337423b1a79b12af8e848ee0925d679c9588e51a28a207e46a0438160684a7&=&format=webp&quality=lossless&width=1240&height=698")
             
             await spinning_message.edit(embed=result_embed)
             
@@ -191,3 +191,4 @@ class Wheel(commands.GroupCog):
                 "Ocurrió un error al girar la ruleta. Contacta soporte.",
                 ephemeral=True
             )
+
